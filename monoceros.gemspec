@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
 
   s.summary       = "Authorization for plain old ruby."
   s.description   = <<-EOF
-    Authorization for plain old ruby. 
+    Authorization for plain old ruby.
   EOF
   s.post_install_message = <<-EOF
     Thanks for installing Monoceros!
@@ -39,6 +39,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'guard-rspec', '~> 0.5.9'
   s.add_development_dependency 'guard-spork', '~> 0.4.1'
   s.add_development_dependency 'guard-bundler', '~> 0.1.3'
+  s.add_development_dependency 'rb-readline', '~> 0.4.2'
 
   # In fact, if you can help me refactor this so these are in the Gemfile
   # and the spec_helper.rb rescues from any load errors if you don't want

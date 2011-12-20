@@ -9,6 +9,7 @@ Spork.prefork do
   # Load support files
    Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each { |f| require f }
 
+  require 'rspec'
   RSpec.configure do |config|
     # Expectation matchers
     require 'rspec/expectations'
