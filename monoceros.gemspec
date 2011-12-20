@@ -27,5 +27,7 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'rspec', '~> 2.7.0'
   s.add_development_dependency 'turnip', '~> 0.2.0'
+  s.add_development_dependency 'fabrication', '~> 1.2.0'
+  s.add_development_dependency 'ffaker', '~> 1.10.1'
 end
 
